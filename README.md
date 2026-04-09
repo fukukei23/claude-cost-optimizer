@@ -1,5 +1,11 @@
 # claude-cost-optimizer
 
+## 解説記事
+
+この構成の設計思想・コスト比較・実測結果についてはZenn記事で詳しく解説しています。
+
+https://zenn.dev/fukukei23/articles/claude-code-cost-optimization
+
 ## 概要
 
 Claude Code CLI のバックエンドを Z.AI（GLM-5.1）や MiniMax に切り替え、API利用料金を大幅に削減するためのスクリプトと設定テンプレートを公開しています。
