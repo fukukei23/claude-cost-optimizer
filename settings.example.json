@@ -1,6 +1,6 @@
 {
   "env": {
-    "ANTHROPIC_BASE_URL": "https://api.z.ai/api/anthropic",
+    "ANTHROPIC_BASE_URL": "https://YOUR_PROVIDER_ENDPOINT/anthropic",
     "ANTHROPIC_AUTH_TOKEN": "YOUR_TOKEN_HERE",
     "API_TIMEOUT_MS": "3000000",
     "CLAUDE_CODE_DISABLE_NONESSENTIAL_TRAFFIC": 1,
