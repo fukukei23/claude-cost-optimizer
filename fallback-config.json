@@ -1,7 +1,7 @@
 {
   "fallback": {
-    "primary_provider": "glm-zai",
-    "secondary_provider": "minimax-anthropic-compatible",
+    "primary_provider": "YOUR_PRIMARY_PROVIDER",
+    "secondary_provider": "YOUR_SECONDARY_PROVIDER",
     "retry": {
       "primary_retries": 1,
       "primary_retry_delay_seconds": 2
@@ -30,13 +30,13 @@
       ]
     }
   },
-  "minimax": {
-    "base_url": "https://api.minimax.io/anthropic",
-    "env_api_key_name": "MINIMAX_API_KEY",
+  "secondary": {
+    "base_url": "https://YOUR_SECONDARY_PROVIDER_ENDPOINT/anthropic",
+    "env_api_key_name": "YOUR_SECONDARY_API_KEY_ENV_NAME",
     "model_map": {
-      "opus": "MiniMax-M2.7",
-      "sonnet": "MiniMax-M2.7",
-      "haiku": "MiniMax-M2.5-highspeed"
+      "opus": "YOUR_MODEL_NAME_LARGE",
+      "sonnet": "YOUR_MODEL_NAME_STANDARD",
+      "haiku": "YOUR_MODEL_NAME_FAST"
     }
   },
   "logging": {
