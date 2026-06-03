@@ -1,0 +1,15 @@
+title: Claude Cost Optimizer
+description: LLMコスト最適化フォールバックスクリプト — 機能ショーケース
+remote_theme: just-the-docs/just-the-docs
+
+baseurl: /claude-cost-optimizer
+url: https://fukukei23.github.io
+
+color_scheme: light
+search_enabled: true
+
+aux_links:
+  "📂 GitHub リポジトリ":
+    - "https://github.com/fukukei23/claude-cost-optimizer"
+
+nav_enabled: true
