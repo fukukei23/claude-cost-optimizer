@@ -1,5 +1,9 @@
 # Claude Cost Optimizer
 
+[![CI](https://github.com/fukukei23/claude-cost-optimizer/actions/workflows/ci.yml/badge.svg)](https://github.com/fukukei23/claude-cost-optimizer/actions/workflows/ci.yml)
+[![Python](https://img.shields.io/badge/python-3.10+-blue)](https://www.python.org/)
+[![License](https://img.shields.io/badge/license-MIT-green)](LICENSE)
+
 > A Python script that reduces Claude Code CLI API costs by 95-98% by routing requests to third-party AI APIs. Features automatic failover on errors, intelligent error classification, and JSONL logging for monitoring.
 
 ## 解説記事
